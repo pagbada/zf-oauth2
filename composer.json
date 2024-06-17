@@ -18,7 +18,7 @@
     },
     "require": {
         "php": "^5.6 || ^7.0",
-        "bshaffer/oauth2-server-php": "^1.10",
+        "bshaffer/oauth2-server-php": "dev-main",
         "zendframework/zend-crypt": "^3.3",
         "zendframework/zend-http": "^2.5.4",
         "zendframework/zend-mvc": "^2.7.15 || ^3.0.2",
@@ -72,5 +72,11 @@
         "cs-fix": "phpcbf",
         "test": "phpunit --colors=always",
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pagbada/oauth2-server-php"
+        }
+    ]
 }
