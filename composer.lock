@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0cbb7a473a1ec7c6f6b0175f7ce66930",
+    "content-hash": "16bda09b958a1fc2c05a0bd7f61c7459",
     "packages": [
         {
             "name": "bshaffer/oauth2-server-php",
@@ -4060,7 +4060,14 @@
             "time": "2019-06-11T19:33:38+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "bshaffer/oauth2-server-php",
+            "version": "dev-main",
+            "alias": "v1.14.1",
+            "alias_normalized": "1.14.1.0"
+        }
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
         "bshaffer/oauth2-server-php": 20
