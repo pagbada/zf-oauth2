@@ -72,11 +72,5 @@
         "cs-fix": "phpcbf",
         "test": "phpunit --colors=always",
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/pagbada/oauth2-server-php"
-        }
-    ]
+    }
 }
